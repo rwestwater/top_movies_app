@@ -1,7 +1,9 @@
 package com.codeclan.topmovieslist;
 
 
-public class Movie {
+import java.io.Serializable;
+
+public class Movie implements Serializable{
 
     private Integer ranking;
     private String title;

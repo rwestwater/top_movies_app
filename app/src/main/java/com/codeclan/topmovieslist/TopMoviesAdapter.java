@@ -32,7 +32,10 @@ public class TopMoviesAdapter extends ArrayAdapter<Movie> {
         TextView title = listItemView.findViewById(R.id.title);
         title.setText(currentMovie.getTitle());
 
+        listItemView.setTag(currentMovie);
 
         return listItemView;
     }
+
+
 }
